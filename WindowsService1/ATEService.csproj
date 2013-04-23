@@ -52,11 +52,16 @@
     <Compile Include="ProjectInstaller.Designer.cs">
       <DependentUpon>ProjectInstaller.cs</DependentUpon>
     </Compile>
-    <Compile Include="ServiceATE.cs">
+    <Compile Include="ProjectInstaller1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectInstaller.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StafService.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ServiceATE.Designer.cs">
-      <DependentUpon>ServiceATE.cs</DependentUpon>
+    <Compile Include="StafService.Designer.cs">
+      <DependentUpon>StafService.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,9 +69,11 @@
   <ItemGroup>
     <EmbeddedResource Include="ProjectInstaller.resx">
       <DependentUpon>ProjectInstaller.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ProjectInstaller1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="ServiceATE.resx">
-      <DependentUpon>ServiceATE.cs</DependentUpon>
+    <EmbeddedResource Include="StafService.resx">
+      <DependentUpon>StafService.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

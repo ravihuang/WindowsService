@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATEService", "WindowsService1\ATEService.csproj", "{B4EB0150-2011-4A2C-BCD1-E3BFE630D648}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "installer", "installer\installer.vdproj", "{EEEFC2C6-A2B9-4C0D-8BAF-8CAB7185EB23}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "InstallService", "InstallService\InstallService.vdproj", "{30CCE6F1-55B2-487F-B886-9C4CAC4A5D39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +15,8 @@ Global
 		{B4EB0150-2011-4A2C-BCD1-E3BFE630D648}.Debug|x86.Build.0 = Debug|x86
 		{B4EB0150-2011-4A2C-BCD1-E3BFE630D648}.Release|x86.ActiveCfg = Release|x86
 		{B4EB0150-2011-4A2C-BCD1-E3BFE630D648}.Release|x86.Build.0 = Release|x86
-		{EEEFC2C6-A2B9-4C0D-8BAF-8CAB7185EB23}.Debug|x86.ActiveCfg = Debug
-		{EEEFC2C6-A2B9-4C0D-8BAF-8CAB7185EB23}.Release|x86.ActiveCfg = Release
+		{30CCE6F1-55B2-487F-B886-9C4CAC4A5D39}.Debug|x86.ActiveCfg = Debug
+		{30CCE6F1-55B2-487F-B886-9C4CAC4A5D39}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

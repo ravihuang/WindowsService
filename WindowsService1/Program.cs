@@ -6,19 +6,17 @@ using System.Text;
 
 namespace WindowsService1
 {
-    static class Program
+    public class Program
     {
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
-        static void Main()
+        public string exe_path;
+        static void Main(System.String[] args)
         {
-            ServiceBase[] ServicesToRun;
-            ServicesToRun = new ServiceBase[] 
-			{ 
-				new StafService() 
-			};
-            ServiceBase.Run(ServicesToRun);
+            Program main = new Program();
+            main.exe_path= args[0];           
+            ServiceBase.Run(new StafService(main));
         }
     }
 }
